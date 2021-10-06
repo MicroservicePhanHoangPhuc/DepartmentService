@@ -17,4 +17,8 @@ public class DepartmentService {
     public Department findDepartmentById(Long departmentId) {
         return departmentRepository.findById(departmentId).get();
     }
+
+//    public Department findDepartment() {
+//        return List<Department> departmentRepository.findAll();
+//    }
 }

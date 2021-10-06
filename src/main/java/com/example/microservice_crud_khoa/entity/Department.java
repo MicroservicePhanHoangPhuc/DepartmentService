@@ -17,7 +17,7 @@ public class Department {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long Id;
-    private String deparmentName;
-    private String deparmentAddress;
-    private String deparmentCode;
+    private String departmentName;
+    private String departmentAddress;
+    private String departmentCode;
 }
