@@ -1,5 +1,5 @@
 config:
-  import: "optional:configserver:"
+  import: "optional:config-server:"
   cloud:
     config:
       uri: http://localhost:9001
